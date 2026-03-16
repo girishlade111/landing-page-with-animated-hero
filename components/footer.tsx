@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Github, CodePen, Mail, MapPin, Phone, Globe2 } from "lucide-react"
+import { Instagram, Linkedin, Github, CodePen, Mail, MapPin, Phone, Link2 } from "lucide-react"
 
 const data = {
   instagramLink: "https://www.instagram.com/girish_lade_/",
@@ -65,7 +65,7 @@ const contactInfo = [
   { icon: Mail, text: data.contact.email, href: `mailto:${data.contact.email}` },
   { icon: Phone, text: data.contact.phone, href: `tel:${data.contact.phone}` },
   { icon: MapPin, text: data.contact.address, isAddress: true },
-  { icon: Globe2, text: "ladestack.in", href: "https://ladestack.in", isExternal: true },
+  { icon: Link2, text: "ladestack.in", href: "https://ladestack.in", isExternal: true },
 ]
 
 export default function Footer() {
