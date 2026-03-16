@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Github, CodePen, Mail, MapPin, Phone, Link2 } from "lucide-react"
+import { Instagram, Linkedin, Github, Mail, MapPin, Phone, Link2 } from "lucide-react"
 
 const data = {
   instagramLink: "https://www.instagram.com/girish_lade_/",
@@ -38,7 +38,7 @@ const socialLinks = [
   { icon: Instagram, label: "Instagram", href: data.instagramLink },
   { icon: Linkedin, label: "LinkedIn", href: data.linkedinLink },
   { icon: Github, label: "GitHub", href: data.githubLink },
-  { icon: CodePen, label: "CodePen", href: data.codepenLink },
+  { icon: Link2, label: "CodePen", href: data.codepenLink },
 ]
 
 const aboutLinks = [
