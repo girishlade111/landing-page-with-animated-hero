@@ -12,16 +12,16 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aibuilders.com'),
+  metadataBase: new URL('https://ladestack.in'),
   title: {
-    default: 'AI Builders | Learn AI & Machine Learning from Industry Experts',
-    template: '%s | AI Builders',
+    default: 'LadeStack | AI & Tech Solutions',
+    template: '%s | LadeStack',
   },
-  description: 'Master AI and machine learning with hands-on projects. Join monthly classes taught by industry experts. Build real AI projects and accelerate your tech career.',
-  keywords: ['AI courses', 'machine learning bootcamp', 'AI education', 'learn AI', 'ML courses', 'artificial intelligence training', 'AI classes', 'tech career', 'AI builders', 'hands-on AI projects'],
-  authors: [{ name: 'AI Builders', url: 'https://aibuilders.com' }],
-  creator: 'AI Builders',
-  publisher: 'AI Builders',
+  description: 'Transform your skills with cutting-edge AI education and hands-on projects. Join our community of builders creating the future with AI.',
+  keywords: ['AI solutions', 'tech education', 'web development', 'AI projects', 'machine learning', 'tech career', 'ladestack', 'AI builders', 'hands-on AI projects', 'tech learning'],
+  authors: [{ name: 'LadeStack', url: 'https://ladestack.in' }],
+  creator: 'LadeStack',
+  publisher: 'LadeStack',
   formatDetection: {
     email: false,
     address: false,
@@ -41,35 +41,35 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aibuilders.com',
-    siteName: 'AI Builders',
-    title: 'AI Builders | Learn AI & Machine Learning from Industry Experts',
-    description: 'Master AI and machine learning with hands-on projects. Join monthly classes taught by industry experts. Build real AI projects and accelerate your tech career.',
+    url: 'https://ladestack.in',
+    siteName: 'LadeStack',
+    title: 'LadeStack | AI & Tech Solutions',
+    description: 'Transform your skills with cutting-edge AI education and hands-on projects. Join our community of builders creating the future with AI.',
     images: [
       {
         url: '/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AI Builders - Learn AI from Industry Experts',
+        alt: 'LadeStack - AI & Tech Solutions',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Builders | Learn AI & Machine Learning from Industry Experts',
-    description: 'Master AI and machine learning with hands-on projects. Join monthly classes taught by industry experts.',
+    title: 'LadeStack | AI & Tech Solutions',
+    description: 'Transform your skills with cutting-edge AI education and hands-on projects. Join our community of builders.',
     images: ['/images/og-image.png'],
-    creator: '@nocheerleader',
-    site: '@aibuilders',
+    creator: '@girish_lade_',
+    site: '@ladestack',
   },
   alternates: {
-    canonical: 'https://aibuilders.com',
+    canonical: 'https://ladestack.in',
     languages: {
-      en: 'https://aibuilders.com',
+      en: 'https://ladestack.in',
     },
   },
-  category: 'education',
-  classification: 'AI Education, Machine Learning Courses, Tech Training',
+  category: 'technology',
+  classification: 'AI Solutions, Tech Education, Web Development',
 }
 
 export default function RootLayout({

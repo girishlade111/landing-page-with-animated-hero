@@ -1,10 +1,10 @@
-import { Facebook, Instagram, Twitter, Github, Mail, MapPin, Phone } from "lucide-react"
+import { Instagram, Linkedin, Github, CodePen, Mail, MapPin, Phone, Globe } from "lucide-react"
 
 const data = {
-  facebookLink: "https://facebook.com/aibuilders",
-  instaLink: "https://instagram.com/aibuilders",
-  twitterLink: "https://twitter.com/aibuilders",
-  githubLink: "https://github.com/aibuilders",
+  instagramLink: "https://www.instagram.com/girish_lade_/",
+  linkedinLink: "https://www.linkedin.com/in/girish-lade-075bba201/",
+  githubLink: "https://github.com/girishlade111",
+  codepenLink: "https://codepen.io/Girish-Lade-the-looper",
   services: {
     ml: "/machine-learning",
     cv: "/computer-vision",
@@ -23,22 +23,22 @@ const data = {
     community: "/community",
   },
   contact: {
-    email: "hello@aibuilders.com",
+    email: "admin@ladestack.in",
     phone: "+1 (555) 123-4567",
-    address: "Dublin, Ireland",
+    address: "India",
   },
   company: {
-    name: "AI Builders",
+    name: "LadeStack",
     description:
-      "We create classes every month with our talented AI builders. Transform your skills with cutting-edge AI education and hands-on projects.",
+      "Transform your skills with cutting-edge AI education and hands-on projects. Join our community of builders creating the future with AI.",
   },
 }
 
 const socialLinks = [
-  { icon: Facebook, label: "Facebook", href: data.facebookLink },
-  { icon: Instagram, label: "Instagram", href: data.instaLink },
-  { icon: Twitter, label: "Twitter", href: data.twitterLink },
+  { icon: Instagram, label: "Instagram", href: data.instagramLink },
+  { icon: Linkedin, label: "LinkedIn", href: data.linkedinLink },
   { icon: Github, label: "GitHub", href: data.githubLink },
+  { icon: CodePen, label: "CodePen", href: data.codepenLink },
 ]
 
 const aboutLinks = [
@@ -62,9 +62,10 @@ const helpfulLinks = [
 ]
 
 const contactInfo = [
-  { icon: Mail, text: data.contact.email },
-  { icon: Phone, text: data.contact.phone },
+  { icon: Mail, text: data.contact.email, href: `mailto:${data.contact.email}` },
+  { icon: Phone, text: data.contact.phone, href: `tel:${data.contact.phone}` },
   { icon: MapPin, text: data.contact.address, isAddress: true },
+  { icon: Globe, text: "ladestack.in", href: "https://ladestack.in", isExternal: true },
 ]
 
 export default function Footer() {
@@ -401,13 +402,13 @@ export default function Footer() {
           <div className="footer-grid">
             <div className="footer-brand">
               <div className="brand-logo">
-                <div className="brand-icon">AI</div>
+                <div className="brand-icon">LS</div>
                 <span className="brand-name">{data.company.name}</span>
               </div>
               <p className="brand-description">{data.company.description}</p>
               <div className="social-links">
                 {socialLinks.map(({ icon: Icon, label, href }) => (
-                  <a key={label} href={href} className="social-link" aria-label={label}>
+                  <a key={label} href={href} className="social-link" aria-label={label} target="_blank" rel="noopener noreferrer">
                     <Icon size={20} />
                   </a>
                 ))}
@@ -460,9 +461,9 @@ export default function Footer() {
               <div className="link-column">
                 <h3>Contact Us</h3>
                 <ul className="link-list">
-                  {contactInfo.map(({ icon: Icon, text, isAddress }) => (
+                  {contactInfo.map(({ icon: Icon, text, isAddress, href, isExternal }) => (
                     <li key={text} className="link-item">
-                      <a href="#" className="contact-item">
+                      <a href={href || "#"} className="contact-item" target={isExternal ? "_blank" : undefined} rel={isExternal ? "noopener noreferrer" : undefined}>
                         <Icon className="contact-icon" size={20} />
                         {isAddress ? <address style={{ fontStyle: "normal" }}>{text}</address> : <span>{text}</span>}
                       </a>
@@ -475,8 +476,7 @@ export default function Footer() {
 
           <div className="footer-bottom">
             <p className="copyright">
-              &copy; 2025 made with 💛 by <a href="https://x.com/nocheerleader">nocheerleader</a> and inspired by 
-               <a href="https://instalanding.ai/"> instalanding.ai</a>
+              &copy; 2025 <a href="https://ladestack.in">LadeStack</a>. All rights reserved.
             </p>
             <div className="footer-legal">
               <a href="/privacy">Privacy Policy</a>

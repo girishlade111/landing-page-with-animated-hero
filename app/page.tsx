@@ -9,39 +9,31 @@ export default function Home() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "AI Builders",
-            "description": "Master AI and machine learning with hands-on projects. Join monthly classes taught by industry experts.",
-            "url": "https://aibuilders.com",
-            "logo": "https://aibuilders.com/images/logo.png",
-            "image": "https://aibuilders.com/images/og-image.png",
+            "@type": "Organization",
+            "name": "LadeStack",
+            "description": "Transform your skills with cutting-edge AI education and hands-on projects.",
+            "url": "https://ladestack.in",
+            "logo": "https://ladestack.in/images/logo.png",
+            "image": "https://ladestack.in/images/og-image.png",
             "sameAs": [
-              "https://facebook.com/aibuilders",
-              "https://instagram.com/aibuilders",
-              "https://twitter.com/aibuilders",
-              "https://github.com/aibuilders"
+              "https://www.instagram.com/girish_lade_/",
+              "https://www.linkedin.com/in/girish-lade-075bba201/",
+              "https://github.com/girishlade111",
+              "https://codepen.io/Girish-Lade-the-looper"
             ],
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+1-555-123-4567",
+              "email": "admin@ladestack.in",
               "contactType": "customer service",
               "areaServed": "Worldwide",
               "availableLanguage": "English"
             },
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Dublin",
-              "addressCountry": "IE"
+              "addressLocality": "India",
+              "addressCountry": "IN"
             },
-            "areaServed": "Worldwide",
-            "courseMode": "online",
-            "educationalLevel": "Beginner to Advanced",
-            "educationalCredentialAwarded": "Certificate of Completion",
-            "offers": {
-              "@type": "Offer",
-              "category": "Paid",
-              "priceCurrency": "USD"
-            }
+            "areaServed": "Worldwide"
           })
         }}
       />
@@ -51,11 +43,11 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "AI Builders",
-            "url": "https://aibuilders.com",
+            "name": "LadeStack",
+            "url": "https://ladestack.in",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://aibuilders.com/search?q={search_term_string}",
+              "target": "https://ladestack.in/search?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           })

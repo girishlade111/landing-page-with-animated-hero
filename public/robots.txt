@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://aibuilders.com/sitemap.xml
+Sitemap: https://ladestack.in/sitemap.xml
 
 # Crawl-delay (optional, for polite crawling)
 Crawl-delay: 1
