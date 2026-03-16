@@ -146,14 +146,14 @@ const PhotographyBanner: React.FC = () => {
 
         .left-part p {
           width: 72%;
-          margin: 20px 0 0;
+          margin: 24px 0 0;
           color: #fff;
-          font-size: 16px;
+          font-size: 18px;
           font-style: normal;
-          font-weight: normal;
-          line-height: 2;
-          font-family: "Lexend";
-          opacity: 0.8;
+          font-weight: 400;
+          line-height: 1.7;
+          font-family: "Lexend", system-ui, sans-serif;
+          opacity: 0.85;
         }
 
         /* Button */
@@ -161,17 +161,17 @@ const PhotographyBanner: React.FC = () => {
           margin: 40px 0 0;
           padding: 0;
           border: 0;
-          font-size: 56px;
-          line-height: 1;
+          font-size: 18px;
+          line-height: 1.4;
           color: #f1f1f1;
-          letter-spacing: 0.25px;
+          letter-spacing: 0.5px;
           text-transform: uppercase;
-          font-family: "Lexend";
-          font-weight: 300;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-weight: 600;
           font-style: normal;
           display: inline-flex;
           align-items: center;
-          gap: 28px;
+          gap: 16px;
           position: relative;
           text-decoration: none;
           cursor: pointer;
@@ -538,12 +538,13 @@ const PhotographyBanner: React.FC = () => {
 
         .features-content h2 {
           color: #fff;
-          font-family: "Lexend", sans-serif;
+          font-family: "Lexend", system-ui, sans-serif;
           font-weight: 700;
-          font-size: clamp(60px, 8vw, 120px);
-          line-height: 0.9;
+          font-size: clamp(36px, 5vw, 72px);
+          line-height: 1.1;
           margin: 0 0 30px;
           text-transform: uppercase;
+          letter-spacing: -0.5px;
         }
 
         .features-content h2 .highlight {
@@ -587,9 +588,9 @@ const PhotographyBanner: React.FC = () => {
         }
 
         .feature-text p {
-          color: #aaa;
-          font-family: "monument_extendedregular";
-          font-size: 14px;
+          color: #b0b0b0;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 15px;
           margin: 0;
           line-height: 1.6;
         }
@@ -625,12 +626,13 @@ const PhotographyBanner: React.FC = () => {
 
         .testimonials-title {
           color: #fff;
-          font-family: "Lexend", sans-serif;
+          font-family: "Lexend", system-ui, sans-serif;
           font-weight: 700;
-          font-size: clamp(60px, 8vw, 100px);
-          line-height: 0.9;
+          font-size: clamp(36px, 5vw, 64px);
+          line-height: 1.1;
           margin: 0 0 80px;
           text-transform: uppercase;
+          letter-spacing: -0.5px;
         }
 
         /* Replaced grid with marquee scroller */
@@ -666,18 +668,18 @@ const PhotographyBanner: React.FC = () => {
         }
 
         .testimonial-quote {
-          color: #fff;
-          font-family: "Roboto", sans-serif;
+          color: #e0e0e0;
+          font-family: "Lexend", system-ui, sans-serif;
           font-weight: 400;
           font-size: 16px;
-          line-height: 1.8;
+          line-height: 1.75;
           margin: 0 0 30px;
           font-style: italic;
         }
 
         .testimonial-author {
           display: flex;
-          font-family: "Roboto", sans-serif;
+          font-family: "Lexend", system-ui, sans-serif;
           align-items: center;
           gap: 15px;
         }
@@ -696,17 +698,20 @@ const PhotographyBanner: React.FC = () => {
 
         .author-info h4 {
           color: #cb4b16;
-          font-family: "Roboto", sans-serif;
+          font-family: "Lexend", system-ui, sans-serif;
           font-size: 14px;
           margin: 0;
           text-transform: uppercase;
+          font-weight: 600;
+          letter-spacing: 0.5px;
         }
 
         .author-info p {
-          color: #aaa;
-          font-family: "Roboto", sans-serif;
-          font-size: 12px;
-          margin: 5px 0 0;
+          color: #b0b0b0;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 13px;
+          margin: 4px 0 0;
+          font-weight: 400;
         }
 
         /* CTA Section */
@@ -739,23 +744,25 @@ const PhotographyBanner: React.FC = () => {
 
         .cta-title {
           color: #fff;
-          font-family: "Lexend", sans-serif;
+          font-family: "Lexend", system-ui, sans-serif;
           font-weight: 700;
-          font-size: clamp(80px, 12vw, 160px);
-          line-height: 0.8;
+          font-size: clamp(48px, 8vw, 100px);
+          line-height: 1;
           margin: 0 0 30px;
           text-transform: uppercase;
+          letter-spacing: -1px;
         }
 
         .cta-subtitle {
           color: #d33682;
-          font-family: "lexend";
-          font-size: 26px;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 20px;
           line-height: 1.6;
           margin: 0 0 50px;
           max-width: 600px;
           margin-left: auto;
           margin-right: auto;
+          font-weight: 400;
         }
 
         .cta-buttons {
@@ -766,14 +773,15 @@ const PhotographyBanner: React.FC = () => {
         }
 
         .cta-button {
-          padding: 18px 40px;
+          padding: 16px 36px;
           background: #d33682;
           color: #002b36;
           text-decoration: none;
-          font-family: "lexend";
-          font-size: 16px;
-          font-weight: bold;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 14px;
+          font-weight: 600;
           text-transform: uppercase;
+          letter-spacing: 0.5px;
           border-radius: 50px;
           transition: all 0.3s ease;
           border: 2px solid #d33682;

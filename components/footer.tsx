@@ -155,12 +155,13 @@ export default function Footer() {
         }
 
         .brand-description {
-          font-family: "Lexend";
-          font-size: 16px;
-          line-height: 1.8;
-          color: #aaa;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 15px;
+          line-height: 1.7;
+          color: #a0a0a0;
           margin-bottom: 40px;
           max-width: 400px;
+          font-weight: 400;
         }
 
         .social-links {
@@ -195,13 +196,13 @@ export default function Footer() {
         }
 
         .link-column h3 {
-          font-family: "Lexend", sans-serif;
-          font-weight: 700;
-          font-size: 16px;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-weight: 600;
+          font-size: 14px;
           color: #d33682;
           text-transform: uppercase;
           margin: 0 0 25px;
-          letter-spacing: 1px;
+          letter-spacing: 1.5px;
         }
 
         .link-list {
@@ -215,14 +216,15 @@ export default function Footer() {
         }
 
         .link-item a {
-          font-family: "Lexend";
+          font-family: "Lexend", system-ui, sans-serif;
           font-size: 14px;
-          color: #aaa;
+          color: #a0a0a0;
           text-decoration: none;
           transition: color 0.3s ease;
           display: flex;
           align-items: center;
           gap: 8px;
+          font-weight: 400;
         }
 
         .link-item a:hover {
@@ -300,15 +302,16 @@ export default function Footer() {
         }
 
         .copyright {
-          font-family: "lexend";
-          font-size: 14px;
-          color: #aaa;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 13px;
+          color: #909090;
         }
 
         .copyright a {
           color: #d33682;
           text-decoration: none;
           transition: color 0.3s ease;
+          font-weight: 500;
         }
 
         .copyright a:hover {
@@ -321,11 +324,12 @@ export default function Footer() {
         }
 
         .footer-legal a {
-          font-family: "Lexend";
-          font-size: 14px;
-          color: #aaa;
+          font-family: "Lexend", system-ui, sans-serif;
+          font-size: 13px;
+          color: #909090;
           text-decoration: none;
           transition: color 0.3s ease;
+          font-weight: 400;
         }
 
         .footer-legal a:hover {
