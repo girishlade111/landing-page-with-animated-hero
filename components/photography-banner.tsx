@@ -867,7 +867,7 @@ const PhotographyBanner: React.FC = () => {
               <p className="lexend tracking-widest">
                 We create classes every next month with our new talented AI builders
               </p>
-              <a href="https://www.x.com/nocheerleader/" className="book-link">
+              <a href="https://ladestack.in" className="book-link">
                 <span className="linktext tracking-tighter text-3xl">Start Building Now</span>
                 <span className="arrow">
                   <span></span>
@@ -1059,10 +1059,10 @@ const PhotographyBanner: React.FC = () => {
                 with a single click.
               </p>
               <div className="cta-buttons">
-                <a href="https://www.x.com/nocheerleader" className="cta-button">
+                <a href="https://ladestack.in" className="cta-button">
                   Start Learning
                 </a>
-                <a href="https://www.x.com/nocheerleader" className="cta-button secondary">
+                <a href="https://ladestack.in" className="cta-button secondary">
                   View AI Courses
                 </a>
               </div>
